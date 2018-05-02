@@ -1,0 +1,78 @@
+.poshagovaya-forma .header-buttons-border {
+  height: 41px;
+  background: linear-gradient(to top, #2c5b95 0%, #569ad0 100%);
+  padding: 1px;
+  border-radius: 3px;
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper {
+  display: table-row;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button {
+  display: table-cell;
+  background: linear-gradient(to top, #4a84cb 0%, #81bae8 100%);
+  vertical-align: middle;
+  position: relative;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:not(:first-child) {
+  padding-left: 10.25px;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover {
+  cursor: pointer;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button span {
+  font-size: 14px;
+  color: #1b4680;
+  font-family: "Arial";
+  vertical-align: middle;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button img {
+  vertical-align: middle;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button .separ {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: -2px;
+  right: -20.3px;
+  clip: rect(auto, auto, 43px, 19.5px);
+  transform: scaleX(0.6);
+  z-index: 200;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button .separ:before {
+  content: "";
+  position: absolute;
+  top: 14.65%;
+  bottom: 14.65%;
+  left: 14.65%;
+  right: 14.65%;
+  transform: rotate(45deg);
+  background-image: linear-gradient(to right, #569ad0 0%, #417bb3 100%), linear-gradient(to top, #2c5b95 0%, #417bb3 100%), linear-gradient(-45deg, #4a84cb 0%, #81bae8 100%);
+  background-size: 100% 100%;
+  background-position: 0px -28.294px, 28.294px 0px, 1px -1px;
+  background-repeat: no-repeat;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover,
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current {
+  background: linear-gradient(to top, #3668a6 0%, #62a2d6 100%);
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover span,
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current span {
+  color: white;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover .separ:before,
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current .separ:before {
+  background-image: linear-gradient(to right, #569ad0 0%, #417bb3 100%), linear-gradient(to top, #2c5b95 0%, #417bb3 100%), linear-gradient(-45deg, #3668a6 0%, #62a2d6 100%);
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current:hover {
+  cursor: default;
+}

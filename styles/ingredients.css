@@ -1,0 +1,485 @@
+.hide-input-number-arrows {
+  -moz-appearance: textfield;
+}
+.hide-input-number-arrows::-webkit-outer-spin-button,
+.hide-input-number-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.poshagovaya-forma #ingredients {
+  margin: 12px 23px 26px 16px;
+}
+.poshagovaya-forma #ingredients legend {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.poshagovaya-forma #ingredients legend .jewerly {
+  position: absolute;
+  right: 3px;
+  top: 5px;
+}
+.poshagovaya-forma #ingredients legend .jewerly img:hover ~ .hint {
+  visibility: visible;
+}
+.poshagovaya-forma #ingredients .ingredient {
+  position: relative;
+  height: 25px;
+}
+.poshagovaya-forma #ingredients .ingredient:not(:last-child) {
+  margin-bottom: 8px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name {
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name input {
+  height: 25px;
+  width: 178px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 29px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .category,
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units {
+  display: inline-block;
+  position: relative;
+  margin-right: 23px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units input {
+  height: 25px;
+  width: 69px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 25px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .category,
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount {
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input {
+  height: 25px;
+  width: 43px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding-right: 8px;
+  padding-left: 8px;
+  -moz-appearance: textfield;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input::-webkit-outer-spin-button,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows {
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  box-sizing: border-box;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down {
+  position: relative;
+  width: 17px;
+  height: 13px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up:active,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+  z-index: 200;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up:before,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down:before {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 6px;
+  color: white;
+  line-height: 11px;
+  text-shadow: 0px 1px 1px black;
+  text-align: center;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up {
+  background: linear-gradient(to top, #417ab2 0%, #5599ce 100%);
+  border-top-right-radius: 3px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up:before {
+  border-top-right-radius: 2px;
+  content: "▲";
+  background: linear-gradient(to top, #6ea7de 0%, #81bae8 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down {
+  margin-top: -1px;
+  background: linear-gradient(to top, #2c5a95 0%, #417ab2 100%);
+  border-bottom-right-radius: 3px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down:before {
+  border-bottom-right-radius: 2px;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #6ea7de 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  width: 17px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: linear-gradient(to top, #8f9aa2 0%, #b9c0c5 100%);
+  margin: 4px 0px;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration input[type=checkbox] {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  opacity: 0;
+  z-index: 200;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration .checkmark {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-top: 1px solid white;
+  pointer-events: none;
+  text-align: center;
+  background: linear-gradient(to top, #e0e6eb 0%, #f4f7f8 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration .checkmark:after {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  line-height: 15px;
+  color: #5187b9;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration input:not(:checked) ~ .checkmark:after {
+  opacity: 0;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration input:checked ~ .checkmark:after {
+  opacity: 1;
+}
+.poshagovaya-forma .hint {
+  background: linear-gradient(to top, #4d8cc3 0%, #2c5a95 100%);
+  padding: 1px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-5px);
+  z-index: 300;
+  visibility: hidden;
+}
+.poshagovaya-forma .hint:before {
+  font-size: 12px;
+  font-family: "Arial";
+  padding: 4px 6px;
+  text-shadow: none;
+  color: white;
+  content: attr(hint-text);
+  display: inline-block;
+  word-wrap: break-word;
+  background: linear-gradient(to top, #79b2e4 0%, #5a94d4 100%);
+  max-width: 200px;
+}
+.poshagovaya-forma .hint .triangle {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  background: linear-gradient(45deg, #5599ce 0%, #4580b7 100%);
+  transform-origin: 5px 5px;
+  transform: translateX(-50%) rotate(-45deg);
+  left: 50%;
+  bottom: -4.5px;
+  border-top-right-radius: 100px;
+}
+.poshagovaya-forma .hint .triangle:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  bottom: 1px;
+  left: 1px;
+  right: -1px;
+  border-top-right-radius: 100px;
+  background: linear-gradient(45deg, #81bae8 0%, #71abe0 100%);
+}

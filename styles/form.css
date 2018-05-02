@@ -1,0 +1,2251 @@
+.poshagovaya-forma .header-buttons-border {
+  height: 41px;
+  background: linear-gradient(to top, #2c5b95 0%, #569ad0 100%);
+  padding: 1px;
+  border-radius: 3px;
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper {
+  display: table-row;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button {
+  display: table-cell;
+  background: linear-gradient(to top, #4a84cb 0%, #81bae8 100%);
+  vertical-align: middle;
+  position: relative;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:not(:first-child) {
+  padding-left: 10.25px;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover {
+  cursor: pointer;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button span {
+  font-size: 14px;
+  color: #1b4680;
+  font-family: "Arial";
+  vertical-align: middle;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button img {
+  vertical-align: middle;
+  padding-left: 6px;
+  padding-right: 4px;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button .separ {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: -2px;
+  right: -20.3px;
+  clip: rect(auto, auto, 43px, 19.5px);
+  transform: scaleX(0.6);
+  z-index: 200;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button .separ:before {
+  content: "";
+  position: absolute;
+  top: 14.65%;
+  bottom: 14.65%;
+  left: 14.65%;
+  right: 14.65%;
+  transform: rotate(45deg);
+  background-image: linear-gradient(to right, #569ad0 0%, #417bb3 100%), linear-gradient(to top, #2c5b95 0%, #417bb3 100%), linear-gradient(-45deg, #4a84cb 0%, #81bae8 100%);
+  background-size: 100% 100%;
+  background-position: 0px -28.294px, 28.294px 0px, 1px -1px;
+  background-repeat: no-repeat;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover,
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current {
+  background: linear-gradient(to top, #3668a6 0%, #62a2d6 100%);
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover span,
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current span {
+  color: white;
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .header-button:hover .separ:before,
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current .separ:before {
+  background-image: linear-gradient(to right, #569ad0 0%, #417bb3 100%), linear-gradient(to top, #2c5b95 0%, #417bb3 100%), linear-gradient(-45deg, #3668a6 0%, #62a2d6 100%);
+}
+.poshagovaya-forma .header-buttons-border .header-buttons-wrapper .current:hover {
+  cursor: default;
+}
+.poshagovaya-forma #description {
+  margin: 22px 18px 14px 17px;
+}
+.poshagovaya-forma #description .right-inputs-block {
+  display: block;
+  float: right;
+  width: 327px;
+  position: relative;
+}
+.poshagovaya-forma #description .right-inputs-block input[type=text] {
+  height: 30px;
+  margin-bottom: 8px;
+}
+.poshagovaya-forma #description .right-inputs-block textarea {
+  height: 94px;
+}
+.poshagovaya-forma #description .bottom-inputs-block textarea {
+  height: 99px;
+  margin-top: 9px;
+}
+.poshagovaya-forma #description .photo-block {
+  display: inline-block;
+  width: 102px;
+}
+.poshagovaya-forma #description .photo-block #cocktail-photo {
+  height: 130px;
+  width: 90px;
+  border-radius: 3px;
+  background-color: #f9fbfb;
+  border: 1px solid #8b959f;
+  box-shadow: inset 0px 0px 0px 5px white;
+  padding: 5px;
+}
+.poshagovaya-forma #description .photo-block .btn-border {
+  background: linear-gradient(to top, #2a5893 0%, #579cd1 100%);
+  border-radius: 3px;
+  padding: 1px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+.poshagovaya-forma #description .photo-block .btn-border:hover {
+  background: linear-gradient(to top, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma #description .photo-block .btn-border:active {
+  background: linear-gradient(to top, #579cd1 0%, #2a5893 100%);
+}
+.poshagovaya-forma #description .photo-block .btn-border button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: linear-gradient(to top, #4a84cb 0%, #81bae8 100%);
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.poshagovaya-forma #description .photo-block .btn-border button:active {
+  background: linear-gradient(to top, #81bae8 0%, #4a84cb 100%);
+}
+.poshagovaya-forma #description .photo-block .btn-border button {
+  height: 20px;
+}
+.poshagovaya-forma #description .right-inputs-block input[type=text],
+.poshagovaya-forma #description .right-inputs-block textarea,
+.poshagovaya-forma #description .bottom-inputs-block textarea {
+  font-size: 11px;
+  width: 100%;
+  color: #6b6b6b;
+  outline: none;
+  border: 1px solid #8b959f;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  resize: none;
+  background-image: url("../images/textarea-ugolok.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  box-sizing: border-box;
+}
+.poshagovaya-forma #description .right-inputs-block input[type=text]::placeholder,
+.poshagovaya-forma #description .right-inputs-block textarea::placeholder,
+.poshagovaya-forma #description .bottom-inputs-block textarea::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #description .right-inputs-block textarea,
+.poshagovaya-forma #description .bottom-inputs-block textarea {
+  padding: 10px 8px;
+}
+.hide-input-number-arrows {
+  -moz-appearance: textfield;
+}
+.hide-input-number-arrows::-webkit-outer-spin-button,
+.hide-input-number-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.poshagovaya-forma #ingredients {
+  margin: 12px 23px 26px 16px;
+}
+.poshagovaya-forma #ingredients legend {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.poshagovaya-forma #ingredients legend .jewerly {
+  position: absolute;
+  right: 3px;
+  top: 5px;
+}
+.poshagovaya-forma #ingredients legend .jewerly img:hover ~ .hint {
+  visibility: visible;
+}
+.poshagovaya-forma #ingredients .ingredient {
+  position: relative;
+  height: 25px;
+}
+.poshagovaya-forma #ingredients .ingredient:not(:last-child) {
+  margin-bottom: 8px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name {
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name input {
+  height: 25px;
+  width: 178px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 29px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .category,
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-name .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units {
+  display: inline-block;
+  position: relative;
+  margin-right: 23px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units input {
+  height: 25px;
+  width: 69px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 25px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .category,
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-units .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount {
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input {
+  height: 25px;
+  width: 43px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding-right: 8px;
+  padding-left: 8px;
+  -moz-appearance: textfield;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input::-webkit-outer-spin-button,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows {
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  box-sizing: border-box;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down {
+  position: relative;
+  width: 17px;
+  height: 13px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up:active,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+  z-index: 200;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up:before,
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down:before {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 6px;
+  color: white;
+  line-height: 11px;
+  text-shadow: 0px 1px 1px black;
+  text-align: center;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up {
+  background: linear-gradient(to top, #417ab2 0%, #5599ce 100%);
+  border-top-right-radius: 3px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .up:before {
+  border-top-right-radius: 2px;
+  content: "▲";
+  background: linear-gradient(to top, #6ea7de 0%, #81bae8 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down {
+  margin-top: -1px;
+  background: linear-gradient(to top, #2c5a95 0%, #417ab2 100%);
+  border-bottom-right-radius: 3px;
+}
+.poshagovaya-forma #ingredients .ingredient .ingredient-amount .arrows .down:before {
+  border-bottom-right-radius: 2px;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #6ea7de 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  width: 17px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: linear-gradient(to top, #8f9aa2 0%, #b9c0c5 100%);
+  margin: 4px 0px;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration input[type=checkbox] {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  opacity: 0;
+  z-index: 200;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration .checkmark {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-top: 1px solid white;
+  pointer-events: none;
+  text-align: center;
+  background: linear-gradient(to top, #e0e6eb 0%, #f4f7f8 100%);
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration .checkmark:after {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  line-height: 15px;
+  color: #5187b9;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration input:not(:checked) ~ .checkmark:after {
+  opacity: 0;
+}
+.poshagovaya-forma #ingredients .ingredient .is-decoration input:checked ~ .checkmark:after {
+  opacity: 1;
+}
+.poshagovaya-forma .hint {
+  background: linear-gradient(to top, #4d8cc3 0%, #2c5a95 100%);
+  padding: 1px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-5px);
+  z-index: 300;
+  visibility: hidden;
+}
+.poshagovaya-forma .hint:before {
+  font-size: 12px;
+  font-family: "Arial";
+  padding: 4px 6px;
+  text-shadow: none;
+  color: white;
+  content: attr(hint-text);
+  display: inline-block;
+  word-wrap: break-word;
+  background: linear-gradient(to top, #79b2e4 0%, #5a94d4 100%);
+  max-width: 200px;
+}
+.poshagovaya-forma .hint .triangle {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  background: linear-gradient(45deg, #5599ce 0%, #4580b7 100%);
+  transform-origin: 5px 5px;
+  transform: translateX(-50%) rotate(-45deg);
+  left: 50%;
+  bottom: -4.5px;
+  border-top-right-radius: 100px;
+}
+.poshagovaya-forma .hint .triangle:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  bottom: 1px;
+  left: 1px;
+  right: -1px;
+  border-top-right-radius: 100px;
+  background: linear-gradient(45deg, #81bae8 0%, #71abe0 100%);
+}
+.poshagovaya-forma .footer-buttons {
+  margin: 0 18px;
+  padding-bottom: 30px;
+}
+.poshagovaya-forma .footer-buttons table {
+  width: 100%;
+  padding: 0;
+}
+.poshagovaya-forma .footer-buttons table td {
+  width: 33%;
+  padding: 0px;
+}
+.poshagovaya-forma .footer-buttons table td:nth-child(2) {
+  text-align: center;
+}
+.poshagovaya-forma .footer-buttons table td:nth-child(3) {
+  text-align: right;
+}
+.poshagovaya-forma .footer-buttons #prev__btn {
+  display: inline-block;
+  display: none;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .button-wrapper {
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .button-wrapper .button-border {
+  background: linear-gradient(to top, #2a5893 0%, #579cd1 100%);
+  padding: 1px;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 22px;
+  min-width: 77px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 2px -2px #808080;
+  z-index: 2;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .button-wrapper .button-border .button-main-block {
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(to top, #4a84cb 0%, #81bae8 100%);
+  color: white;
+  font-size: 12px;
+  font-family: "Arial";
+  z-index: 2;
+  border-radius: 2px;
+  box-shadow: inset 0px 1px 0px 0px #97c6ec;
+  box-sizing: border-box;
+  line-height: 20px;
+  text-align: center;
+  padding: 0px 4px;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow {
+  margin-right: -4.70277867px;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow .button-border {
+  border-radius: 3px 0 0 3px !important;
+  padding-right: 0px;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow .button-main-block {
+  border-radius: 2px 0 0 2px !important;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow .button-arrow {
+  transform-origin: 0 0;
+  float: right;
+  transform: rotate(45deg);
+  background: linear-gradient(-45deg, #2a5893 0%, #579cd1 100%);
+  box-shadow: 2px 1px 2px -1px #808080;
+  border-radius: 1px 3px 1px 1px;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow .button-arrow:before {
+  border-top-right-radius: 2px;
+  background: linear-gradient(-45deg, #4a84cb 0%, #81bae8 100%);
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow {
+  margin-left: -4.70277867px;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow .button-border {
+  border-radius: 0 3px 3px 0 !important;
+  padding-left: 0px;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow .button-main-block {
+  border-radius: 0 2px 2px 0 !important;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow .button-arrow {
+  float: left;
+  transform-origin: 100% 0;
+  transform: rotate(-45deg);
+  border-radius: 3px 1px 1px 1px;
+  background: linear-gradient(45deg, #2a5893 0%, #579cd1 100%);
+  box-shadow: -2px 1px 2px -1px #808080;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow .button-arrow:before {
+  border-top-left-radius: 2px;
+  background: linear-gradient(45deg, #4a84cb 0%, #81bae8 100%);
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow .button-arrow,
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow .button-arrow {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  width: 16.05649837px;
+  height: 16.05649837px;
+  z-index: 1;
+  margin-top: -0.5px;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow .button-arrow:before,
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow .button-arrow:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  right: 1px;
+  left: 1px;
+  box-shadow: inset 0px 2px 0px -1px #97c6ec;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .button-wrapper:hover .button-border {
+  background: linear-gradient(to top, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #prev__btn .button-wrapper:active .button-border {
+  background: linear-gradient(to top, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .button-wrapper:active .button-main-block {
+  background: linear-gradient(to top, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow:hover .button-arrow {
+  background: linear-gradient(-45deg, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow:active .button-arrow {
+  background: linear-gradient(-45deg, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .right-arrow:active .button-arrow:before {
+  background: linear-gradient(-45deg, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow:hover .button-arrow {
+  background: linear-gradient(45deg, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow:active .button-arrow {
+  background: linear-gradient(45deg, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #prev__btn .left-arrow:active .button-arrow:before {
+  background: linear-gradient(45deg, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #next__btn {
+  display: inline-block;
+}
+.poshagovaya-forma .footer-buttons #next__btn .button-wrapper {
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+}
+.poshagovaya-forma .footer-buttons #next__btn .button-wrapper .button-border {
+  background: linear-gradient(to top, #2a5893 0%, #579cd1 100%);
+  padding: 1px;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 22px;
+  min-width: 77px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 2px -2px #808080;
+  z-index: 2;
+}
+.poshagovaya-forma .footer-buttons #next__btn .button-wrapper .button-border .button-main-block {
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(to top, #4a84cb 0%, #81bae8 100%);
+  color: white;
+  font-size: 12px;
+  font-family: "Arial";
+  z-index: 2;
+  border-radius: 2px;
+  box-shadow: inset 0px 1px 0px 0px #97c6ec;
+  box-sizing: border-box;
+  line-height: 20px;
+  text-align: center;
+  padding: 0px 4px;
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow {
+  margin-right: -4.70277867px;
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow .button-border {
+  border-radius: 3px 0 0 3px !important;
+  padding-right: 0px;
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow .button-main-block {
+  border-radius: 2px 0 0 2px !important;
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow .button-arrow {
+  transform-origin: 0 0;
+  float: right;
+  transform: rotate(45deg);
+  background: linear-gradient(-45deg, #2a5893 0%, #579cd1 100%);
+  box-shadow: 2px 1px 2px -1px #808080;
+  border-radius: 1px 3px 1px 1px;
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow .button-arrow:before {
+  border-top-right-radius: 2px;
+  background: linear-gradient(-45deg, #4a84cb 0%, #81bae8 100%);
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow {
+  margin-left: -4.70277867px;
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow .button-border {
+  border-radius: 0 3px 3px 0 !important;
+  padding-left: 0px;
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow .button-main-block {
+  border-radius: 0 2px 2px 0 !important;
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow .button-arrow {
+  float: left;
+  transform-origin: 100% 0;
+  transform: rotate(-45deg);
+  border-radius: 3px 1px 1px 1px;
+  background: linear-gradient(45deg, #2a5893 0%, #579cd1 100%);
+  box-shadow: -2px 1px 2px -1px #808080;
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow .button-arrow:before {
+  border-top-left-radius: 2px;
+  background: linear-gradient(45deg, #4a84cb 0%, #81bae8 100%);
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow .button-arrow,
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow .button-arrow {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  width: 16.05649837px;
+  height: 16.05649837px;
+  z-index: 1;
+  margin-top: -0.5px;
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow .button-arrow:before,
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow .button-arrow:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  right: 1px;
+  left: 1px;
+  box-shadow: inset 0px 2px 0px -1px #97c6ec;
+}
+.poshagovaya-forma .footer-buttons #next__btn .button-wrapper:hover .button-border {
+  background: linear-gradient(to top, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #next__btn .button-wrapper:active .button-border {
+  background: linear-gradient(to top, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #next__btn .button-wrapper:active .button-main-block {
+  background: linear-gradient(to top, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow:hover .button-arrow {
+  background: linear-gradient(-45deg, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow:active .button-arrow {
+  background: linear-gradient(-45deg, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #next__btn .right-arrow:active .button-arrow:before {
+  background: linear-gradient(-45deg, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow:hover .button-arrow {
+  background: linear-gradient(45deg, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow:active .button-arrow {
+  background: linear-gradient(45deg, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #next__btn .left-arrow:active .button-arrow:before {
+  background: linear-gradient(45deg, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #submit__btn {
+  display: inline-block;
+  display: none;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .button-wrapper {
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: default;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .button-wrapper .button-border {
+  background: linear-gradient(to top, #2a5893 0%, #579cd1 100%);
+  padding: 1px;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 22px;
+  min-width: 75px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 2px -2px #808080;
+  z-index: 2;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .button-wrapper .button-border .button-main-block {
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(to top, #4a84cb 0%, #81bae8 100%);
+  color: white;
+  font-size: 12px;
+  font-family: "Arial";
+  z-index: 2;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 0px 0px #97c6ec;
+  box-sizing: border-box;
+  line-height: 20px;
+  text-align: center;
+  padding: 0px 4px;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow {
+  margin-right: -4.70277867px;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow .button-border {
+  border-radius: 3px 0 0 3px !important;
+  padding-right: 0px;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow .button-main-block {
+  border-radius: 2px 0 0 2px !important;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow .button-arrow {
+  transform-origin: 0 0;
+  float: right;
+  transform: rotate(45deg);
+  background: linear-gradient(-45deg, #2a5893 0%, #579cd1 100%);
+  box-shadow: 2px 1px 2px -1px #808080;
+  border-radius: 1px 3px 1px 1px;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow .button-arrow:before {
+  border-top-right-radius: 2px;
+  background: linear-gradient(-45deg, #4a84cb 0%, #81bae8 100%);
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow {
+  margin-left: -4.70277867px;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow .button-border {
+  border-radius: 0 3px 3px 0 !important;
+  padding-left: 0px;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow .button-main-block {
+  border-radius: 0 2px 2px 0 !important;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow .button-arrow {
+  float: left;
+  transform-origin: 100% 0;
+  transform: rotate(-45deg);
+  border-radius: 3px 1px 1px 1px;
+  background: linear-gradient(45deg, #2a5893 0%, #579cd1 100%);
+  box-shadow: -2px 1px 2px -1px #808080;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow .button-arrow:before {
+  border-top-left-radius: 2px;
+  background: linear-gradient(45deg, #4a84cb 0%, #81bae8 100%);
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow .button-arrow,
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow .button-arrow {
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  width: 16.05649837px;
+  height: 16.05649837px;
+  z-index: 1;
+  margin-top: -0.5px;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow .button-arrow:before,
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow .button-arrow:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  right: 1px;
+  left: 1px;
+  box-shadow: inset 0px 1px 0px -1px #97c6ec;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .button-wrapper:hover .button-border {
+  background: linear-gradient(to top, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #submit__btn .button-wrapper:active .button-border {
+  background: linear-gradient(to top, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .button-wrapper:active .button-main-block {
+  background: linear-gradient(to top, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow:hover .button-arrow {
+  background: linear-gradient(-45deg, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow:active .button-arrow {
+  background: linear-gradient(-45deg, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .right-arrow:active .button-arrow:before {
+  background: linear-gradient(-45deg, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow:hover .button-arrow {
+  background: linear-gradient(45deg, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow:active .button-arrow {
+  background: linear-gradient(45deg, #579cd1 0%, #2a5893 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma .footer-buttons #submit__btn .left-arrow:active .button-arrow:before {
+  background: linear-gradient(45deg, #81bae8 0%, #4a84cb 100%);
+  box-shadow: none;
+}
+.poshagovaya-forma #cooking-parameters {
+  margin: 15px 17px;
+}
+.poshagovaya-forma #cooking-parameters .portion {
+  width: 60px;
+  margin-right: 10px;
+}
+.poshagovaya-forma #cooking-parameters .portion .input {
+  display: inline-block;
+  position: relative;
+}
+.poshagovaya-forma #cooking-parameters .portion .input input {
+  height: 25px;
+  width: 43px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding-right: 8px;
+  padding-left: 8px;
+  -moz-appearance: textfield;
+}
+.poshagovaya-forma #cooking-parameters .portion .input input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #cooking-parameters .portion .input input::-webkit-outer-spin-button,
+.poshagovaya-forma #cooking-parameters .portion .input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows {
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  box-sizing: border-box;
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .up,
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .down {
+  position: relative;
+  width: 17px;
+  height: 13px;
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .up:active,
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .down:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+  z-index: 200;
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .up:before,
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .down:before {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 6px;
+  color: white;
+  line-height: 11px;
+  text-shadow: 0px 1px 1px black;
+  text-align: center;
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .up {
+  background: linear-gradient(to top, #417ab2 0%, #5599ce 100%);
+  border-top-right-radius: 3px;
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .up:before {
+  border-top-right-radius: 2px;
+  content: "▲";
+  background: linear-gradient(to top, #6ea7de 0%, #81bae8 100%);
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .down {
+  margin-top: -1px;
+  background: linear-gradient(to top, #2c5a95 0%, #417ab2 100%);
+  border-bottom-right-radius: 3px;
+}
+.poshagovaya-forma #cooking-parameters .portion .input .arrows .down:before {
+  border-bottom-right-radius: 2px;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #6ea7de 100%);
+}
+.poshagovaya-forma #cooking-parameters .time {
+  width: 65px;
+  margin-right: 10px;
+}
+.poshagovaya-forma #cooking-parameters .time .input {
+  display: inline-block;
+  position: relative;
+}
+.poshagovaya-forma #cooking-parameters .time .input input {
+  height: 25px;
+  width: 48px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #cooking-parameters .time .input input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #cooking-parameters .time .input .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 17px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #cooking-parameters .time .input .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #cooking-parameters .time .input .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list .items .category,
+.poshagovaya-forma #cooking-parameters .time .input .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #cooking-parameters .time .input .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #cooking-parameters .complexity {
+  width: 139px;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+}
+.poshagovaya-forma #cooking-parameters .complexity input {
+  height: 25px;
+  width: 120px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #cooking-parameters .complexity input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #cooking-parameters .complexity .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 19px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #cooking-parameters .complexity .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #cooking-parameters .complexity .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list .items .category,
+.poshagovaya-forma #cooking-parameters .complexity .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #cooking-parameters .complexity .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #cooking-parameters .method {
+  width: 139px;
+  display: inline-block;
+  position: relative;
+}
+.poshagovaya-forma #cooking-parameters .method input {
+  height: 25px;
+  width: 120px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #cooking-parameters .method input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #cooking-parameters .method .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 19px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #cooking-parameters .method .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #cooking-parameters .method .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #cooking-parameters .method .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #cooking-parameters .method .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #cooking-parameters .method .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #cooking-parameters .method .list .items .category,
+.poshagovaya-forma #cooking-parameters .method .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #cooking-parameters .method .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #cooking-parameters .method .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #cooking-parameters .method .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #cooking-parameters .method .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #cooking-parameters .method .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #cooking-parameters .method .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #coctail-type {
+  margin: 15px;
+}
+.poshagovaya-forma #coctail-type .beverage-strength {
+  width: 139px;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+}
+.poshagovaya-forma #coctail-type .beverage-strength input {
+  height: 25px;
+  width: 120px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #coctail-type .beverage-strength input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 19px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #coctail-type .beverage-strength .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .category,
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #coctail-type .beverage-strength .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #coctail-type .based-on {
+  width: 139px;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+}
+.poshagovaya-forma #coctail-type .based-on input {
+  height: 25px;
+  width: 120px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #coctail-type .based-on input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #coctail-type .based-on .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 19px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #coctail-type .based-on .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #coctail-type .based-on .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #coctail-type .based-on .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #coctail-type .based-on .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #coctail-type .based-on .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #coctail-type .based-on .list .items .category,
+.poshagovaya-forma #coctail-type .based-on .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #coctail-type .based-on .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #coctail-type .based-on .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #coctail-type .based-on .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #coctail-type .based-on .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #coctail-type .based-on .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #coctail-type .based-on .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #coctail-type .by-type {
+  width: 139px;
+  display: inline-block;
+  position: relative;
+}
+.poshagovaya-forma #coctail-type .by-type input {
+  height: 25px;
+  width: 120px;
+  float: left;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Arial";
+  font-size: 11px;
+  color: #6b6b6b;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  border: 1px solid #8b959f;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.poshagovaya-forma #coctail-type .by-type input::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #coctail-type .by-type .arrow {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 25px;
+  width: 19px;
+  background: linear-gradient(to top, #2c5a95 0%, #5599ce 100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.poshagovaya-forma #coctail-type .by-type .arrow:active {
+  background: linear-gradient(to top, #2c5a95 0%, #2c5a95 100%);
+}
+.poshagovaya-forma #coctail-type .by-type .arrow:after {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  font-size: 11px;
+  color: white;
+  content: "▼";
+  background: linear-gradient(to top, #5a94d4 0%, #81bae8 100%);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  line-height: 23px;
+  text-shadow: 0px 1px 1px black;
+}
+.poshagovaya-forma #coctail-type .by-type .list {
+  position: absolute;
+  box-sizing: border-box;
+  top: 26px;
+  right: 0px;
+  width: 100%;
+  margin-top: 7px;
+  padding: 4px;
+  box-shadow: inset 0px 0px 3px 0px grey,
+			0px 0px 2px 0px grey;
+  z-index: 300;
+  border: 1px solid #8b959f;
+  border-radius: 4px;
+  background-color: white;
+}
+.poshagovaya-forma #coctail-type .by-type .list:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  right: 10px;
+  top: 0px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  border-top: 1.5px solid #8b959f;
+  border-right: 1.5px solid #8b959f;
+  border-bottom: 1.5px solid transparent;
+  border-left: 1.5px solid transparent;
+  box-shadow: inset -1px 1px 2px 0px #c0c0c0, inset -2px 2px 0px 3px #ffffff, 1px -1px 2px 0px #c0c0c0;
+}
+.poshagovaya-forma #coctail-type .by-type .list:after {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 5px;
+  height: 5px;
+  right: 11px;
+  top: 2px;
+  transform-origin: 0px 0px;
+  transform: rotate(-45deg);
+  border-bottom-left-radius: 100px;
+  background-color: white;
+}
+.poshagovaya-forma #coctail-type .by-type .list .items .category,
+.poshagovaya-forma #coctail-type .by-type .list .items .item {
+  font-size: 12px;
+  font-family: "Arial";
+  border-radius: 2px;
+  word-wrap: break-word;
+  line-height: 0.9em;
+  padding: 5px;
+}
+.poshagovaya-forma #coctail-type .by-type .list .items .category {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #efebe8;
+  color: #827a78;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.poshagovaya-forma #coctail-type .by-type .list .items .item {
+  position: relative;
+  color: #6b6b6b;
+  padding-left: 26px;
+}
+.poshagovaya-forma #coctail-type .by-type .list .items .item:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  left: 10px;
+}
+.poshagovaya-forma #coctail-type .by-type .list .items .item:hover {
+  background: linear-gradient(-45deg, #e2dedb 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #e2dedb 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #f5f5f5;
+}
+.poshagovaya-forma #coctail-type .by-type .list .items .current {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+  color: white;
+}
+.poshagovaya-forma #coctail-type .by-type .list .items .current:hover {
+  background: linear-gradient(-45deg, #6f646a 25%, rgba(255, 255, 255, 0) 25%) 0 0, linear-gradient(-45deg, rgba(255, 255, 255, 0) 75%, #6f646a 75%) 1px 1px;
+  background-size: 2px 2px;
+  background-color: #817879;
+}
+.poshagovaya-forma #cooking-parameters .portion,
+.poshagovaya-forma #coctail-type .portion,
+.poshagovaya-forma #cooking-parameters .time,
+.poshagovaya-forma #coctail-type .time,
+.poshagovaya-forma #cooking-parameters .complexity,
+.poshagovaya-forma #coctail-type .complexity,
+.poshagovaya-forma #cooking-parameters .method,
+.poshagovaya-forma #coctail-type .method,
+.poshagovaya-forma #cooking-parameters .beverage-strength,
+.poshagovaya-forma #coctail-type .beverage-strength,
+.poshagovaya-forma #cooking-parameters .based-on,
+.poshagovaya-forma #coctail-type .based-on,
+.poshagovaya-forma #cooking-parameters .by-type,
+.poshagovaya-forma #coctail-type .by-type {
+  position: relative;
+  float: left;
+}
+.poshagovaya-forma #cooking-parameters .portion .label,
+.poshagovaya-forma #coctail-type .portion .label,
+.poshagovaya-forma #cooking-parameters .time .label,
+.poshagovaya-forma #coctail-type .time .label,
+.poshagovaya-forma #cooking-parameters .complexity .label,
+.poshagovaya-forma #coctail-type .complexity .label,
+.poshagovaya-forma #cooking-parameters .method .label,
+.poshagovaya-forma #coctail-type .method .label,
+.poshagovaya-forma #cooking-parameters .beverage-strength .label,
+.poshagovaya-forma #coctail-type .beverage-strength .label,
+.poshagovaya-forma #cooking-parameters .based-on .label,
+.poshagovaya-forma #coctail-type .based-on .label,
+.poshagovaya-forma #cooking-parameters .by-type .label,
+.poshagovaya-forma #coctail-type .by-type .label {
+  display: inline-block;
+  width: 100%;
+  font-size: 13px;
+  color: #7b7b7b;
+  font-family: "Arial";
+  text-shadow: 0px 1px 0px white;
+  margin-bottom: 7px;
+}
+.poshagovaya-forma #cooking-parameters .portion .label:before,
+.poshagovaya-forma #coctail-type .portion .label:before,
+.poshagovaya-forma #cooking-parameters .time .label:before,
+.poshagovaya-forma #coctail-type .time .label:before,
+.poshagovaya-forma #cooking-parameters .complexity .label:before,
+.poshagovaya-forma #coctail-type .complexity .label:before,
+.poshagovaya-forma #cooking-parameters .method .label:before,
+.poshagovaya-forma #coctail-type .method .label:before,
+.poshagovaya-forma #cooking-parameters .beverage-strength .label:before,
+.poshagovaya-forma #coctail-type .beverage-strength .label:before,
+.poshagovaya-forma #cooking-parameters .based-on .label:before,
+.poshagovaya-forma #coctail-type .based-on .label:before,
+.poshagovaya-forma #cooking-parameters .by-type .label:before,
+.poshagovaya-forma #coctail-type .by-type .label:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 11px;
+  padding-right: 4px;
+}
+.poshagovaya-forma #tags {
+  margin: 15px;
+}
+.poshagovaya-forma #tags .checkboxes div {
+  float: left;
+  width: 145px;
+}
+.poshagovaya-forma #tags .checkboxes div .input {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  width: 17px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: linear-gradient(to top, #8f9aa2 0%, #b9c0c5 100%);
+}
+.poshagovaya-forma #tags .checkboxes div .input input[type=checkbox] {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  opacity: 0;
+  z-index: 200;
+}
+.poshagovaya-forma #tags .checkboxes div .input .checkmark {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-top: 1px solid white;
+  pointer-events: none;
+  text-align: center;
+  background: linear-gradient(to top, #e0e6eb 0%, #f4f7f8 100%);
+}
+.poshagovaya-forma #tags .checkboxes div .input .checkmark:after {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 12px;
+  line-height: 15px;
+  color: #5187b9;
+}
+.poshagovaya-forma #tags .checkboxes div .input input:not(:checked) ~ .checkmark:after {
+  opacity: 0;
+}
+.poshagovaya-forma #tags .checkboxes div .input input:checked ~ .checkmark:after {
+  opacity: 1;
+}
+.poshagovaya-forma #tags .checkboxes div .label {
+  width: auto;
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #6b6b6b;
+  font-family: "Arial";
+}
+.poshagovaya-forma #tags .checkboxes div:nth-last-child(n+4) {
+  margin-bottom: 10px;
+}
+.poshagovaya-forma #tags .checkboxes div:nth-child(3n+1) {
+  clear: left;
+}
+.poshagovaya-forma #bokali {
+  margin: 15px;
+}
+.poshagovaya-forma #bokali .glass {
+  width: 102px;
+  height: 146px;
+  background-color: white;
+  border: 1px solid #8b959f;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 3px;
+  position: relative;
+  text-align: center;
+  float: left;
+}
+.poshagovaya-forma #bokali .glass:hover .hint {
+  visibility: visible;
+}
+.poshagovaya-forma #bokali .glass:hover .hint:before {
+  width: 150px;
+}
+.poshagovaya-forma #bokali .glass:not( :nth-child(4n-4)) {
+  margin-right: 11px;
+}
+.poshagovaya-forma #bokali .glass:nth-last-child(n+5) {
+  margin-bottom: 10px;
+}
+.poshagovaya-forma #bokali .glass img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.poshagovaya-forma #bokali .glass:before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+.poshagovaya-forma #bokali .glass .choose-btn {
+  width: 100%;
+  height: 28px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.9;
+  border-top: 1px solid #68a6d5;
+  background: linear-gradient(to top, #5e91d1 0%, #8bbfe9 100%);
+  text-align: center;
+}
+.poshagovaya-forma #bokali .glass .choose-btn span {
+  display: inline-block;
+  font-size: 13px;
+  color: #ffffff;
+  font-family: "Arial";
+  line-height: 28px;
+  position: relative;
+}
+.poshagovaya-forma #bokali .glass .choose-btn span:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 9px;
+  padding-right: 4px;
+  display: inline-block;
+  position: absolute;
+  left: -13px;
+}
+.poshagovaya-forma {
+  font-size: 0pt;
+  width: 472px;
+  background-color: #e9e9e9;
+}
+.poshagovaya-forma fieldset {
+  border: none;
+}
+.poshagovaya-forma fieldset legend {
+  font-size: 13px;
+  color: #505050;
+  font-family: "Arial";
+  text-shadow: 0px 1px 0px white;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.poshagovaya-forma fieldset legend img {
+  vertical-align: bottom;
+}
+.poshagovaya-forma #ingredients-tab,
+.poshagovaya-forma #parameters-tab,
+.poshagovaya-forma #bokali-tab {
+  display: none;
+}

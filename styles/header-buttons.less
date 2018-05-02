@@ -1,0 +1,120 @@
+@hb-border-bot-color: #2c5b95;
+@hb-border-top-color: #569ad0;
+
+@hb-btn-bot-color: #4a84cb;
+@hb-btn-top-color: #81bae8;
+
+@hb-btn-hover-bot-color: #3668a6;
+@hb-btn-hover-top-color: #62a2d6;
+
+@hb-height: 41px;
+
+.grad-bg(@c1, @c2){
+	background: linear-gradient(to top, @c1 0%, @c2 100%);
+}
+
+.separ-grad-bg(@btn-c1, @btn-c2) {
+	@middle-color: @hb-border-bot-color + (@hb-border-top-color - @hb-border-bot-color) / 2;
+	background-image: 
+		linear-gradient(to right, @hb-border-top-color 0%, @middle-color 100%), 
+		linear-gradient(to top, @hb-border-bot-color 0%, @middle-color 100%),
+		linear-gradient(-45deg, @btn-c1 0%, @btn-c2 100%);
+}
+
+.poshagovaya-forma {
+	.header-buttons-border {
+		height: @hb-height;
+		.grad-bg(@hb-border-bot-color, @hb-border-top-color);
+		padding: 1px;
+		border-radius: 3px;
+		display: table;
+		width: 100%;
+		box-sizing: border-box;
+		overflow: hidden;
+
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
+		.header-buttons-wrapper {
+			display: table-row;
+
+			.header-button {
+				display: table-cell;
+				.grad-bg(@hb-btn-bot-color, @hb-btn-top-color);
+				vertical-align: middle;
+				position: relative;
+				
+				&:not(:first-child){
+					padding-left: @hb-height / 4;
+				}
+
+				&:hover {
+					cursor: pointer;
+				}
+
+				span{
+					font-size: 14px;
+					color: rgb(27,70,128);
+					font-family: "Arial";
+					vertical-align: middle;
+				}
+
+				img{
+					vertical-align: middle;
+					padding-left: 6px;
+					padding-right: 4px;
+				}
+
+				.separ {
+					@size: @hb-height + 2px;
+				    width: @size;
+				    height: @size;
+				    position: absolute;
+				    top: -2px;
+				    right: -(@size - 2px) / 2 + 0.2px;
+				    clip: rect(auto, auto, @size, @size / 2 - 2px);
+				    transform: scaleX(0.6);
+				    z-index: 200;
+
+				    &:before {
+					    content: "";
+					    position: absolute;
+					    top: 14.65%;
+					    bottom: 14.65%;
+					    left: 14.65%;
+					    right: 14.65%;
+					    transform: rotate(45deg);
+					    .separ-grad-bg(@hb-btn-bot-color, @hb-btn-top-color);
+					    background-size: 100% 100%;
+					    background-position: 0px (-@size * 0.658), @size * 0.658 0px, 1px -1px;
+					    background-repeat: no-repeat;
+				    }
+				}
+			}
+
+			.header-button:hover,
+			.current {
+				.grad-bg(@hb-btn-hover-bot-color, @hb-btn-hover-top-color);
+
+				span {
+					color: white;
+				}
+
+				.separ{
+					&:before{
+						.separ-grad-bg(@hb-btn-hover-bot-color, @hb-btn-hover-top-color);
+					}
+				}
+			}
+
+			.current {
+				&:hover{
+					cursor: default;
+				}
+			}
+
+		}
+	}
+}

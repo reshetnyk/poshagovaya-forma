@@ -1,0 +1,90 @@
+.poshagovaya-forma #description {
+  margin: 22px 18px 14px 17px;
+}
+.poshagovaya-forma #description .right-inputs-block {
+  display: block;
+  float: right;
+  width: 327px;
+  position: relative;
+}
+.poshagovaya-forma #description .right-inputs-block input[type=text] {
+  height: 30px;
+  margin-bottom: 8px;
+}
+.poshagovaya-forma #description .right-inputs-block textarea {
+  height: 94px;
+}
+.poshagovaya-forma #description .bottom-inputs-block textarea {
+  height: 99px;
+  margin-top: 9px;
+}
+.poshagovaya-forma #description .photo-block {
+  display: inline-block;
+  width: 102px;
+}
+.poshagovaya-forma #description .photo-block #cocktail-photo {
+  height: 130px;
+  width: 90px;
+  border-radius: 3px;
+  background-color: #f9fbfb;
+  border: 1px solid #8b959f;
+  box-shadow: inset 0px 0px 0px 5px white;
+  padding: 5px;
+}
+.poshagovaya-forma #description .photo-block .btn-border {
+  background: linear-gradient(to top, #2a5893 0%, #579cd1 100%);
+  border-radius: 3px;
+  padding: 1px;
+  box-sizing: border-box;
+  margin-top: 6px;
+}
+.poshagovaya-forma #description .photo-block .btn-border:hover {
+  background: linear-gradient(to top, #2a5893 0%, #2a5893 100%);
+}
+.poshagovaya-forma #description .photo-block .btn-border:active {
+  background: linear-gradient(to top, #579cd1 0%, #2a5893 100%);
+}
+.poshagovaya-forma #description .photo-block .btn-border button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: linear-gradient(to top, #4a84cb 0%, #81bae8 100%);
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-family: "Arial";
+}
+.poshagovaya-forma #description .photo-block .btn-border button:active {
+  background: linear-gradient(to top, #81bae8 0%, #4a84cb 100%);
+}
+.poshagovaya-forma #description .photo-block .btn-border button {
+  height: 20px;
+}
+.poshagovaya-forma #description .right-inputs-block input[type=text],
+.poshagovaya-forma #description .right-inputs-block textarea,
+.poshagovaya-forma #description .bottom-inputs-block textarea {
+  font-size: 11px;
+  width: 100%;
+  color: #6b6b6b;
+  outline: none;
+  border: 1px solid #8b959f;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+  resize: none;
+  background-image: url("../images/textarea-ugolok.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  box-sizing: border-box;
+}
+.poshagovaya-forma #description .right-inputs-block input[type=text]::placeholder,
+.poshagovaya-forma #description .right-inputs-block textarea::placeholder,
+.poshagovaya-forma #description .bottom-inputs-block textarea::placeholder {
+  color: #a6acb2;
+}
+.poshagovaya-forma #description .right-inputs-block textarea,
+.poshagovaya-forma #description .bottom-inputs-block textarea {
+  padding: 10px 8px;
+}

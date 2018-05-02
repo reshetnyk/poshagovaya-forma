@@ -1,0 +1,150 @@
+@import url("inputs.less");
+@param-input-height: 25px;
+
+@param-portion-input-width: 43px; 
+@param-portion-arrows-width: 17px; 
+
+@param-time-input-width: 48px; 
+@param-time-arrow-width: 17px; 
+
+@param-complexity-input-width: 120px; 
+@param-complexity-arrow-width: 19px; 
+
+@param-method-input-width: 120px; 
+@param-method-arrow-width: 19px;
+
+@param-beverage-strength-input-width: 120px; 
+@param-beverage-strength-arrow-width: 19px; 
+
+@param-based-on-input-width: 120px; 
+@param-based-on-arrow-width: 19px; 
+
+@param-by-type-input-width: 120px; 
+@param-by-type-arrow-width: 19px; 
+
+.poshagovaya-forma{
+	#cooking-parameters{
+		margin: 15px 17px;
+
+		.portion{
+			width: @param-portion-input-width + @param-portion-arrows-width;
+			margin-right: 10px;
+
+			.input{
+				.updown(@param-portion-input-width, @param-portion-arrows-width, @param-input-height, 11px);
+			}
+		}
+
+		.time{
+			width: @param-time-input-width + @param-time-arrow-width;
+			margin-right: 10px;
+
+			.input{
+				.select(@param-time-input-width, @param-time-arrow-width, @param-input-height, 11px, 100%);
+			}
+		}
+
+		.complexity{
+			width: @param-complexity-input-width + @param-complexity-arrow-width;
+			margin-right: 10px;
+
+			.select(@param-complexity-input-width, @param-complexity-arrow-width, @param-input-height, 11px, 100%);
+		}
+
+		.method{
+			width: @param-method-input-width + @param-method-arrow-width;
+
+			.select(@param-method-input-width, @param-method-arrow-width, @param-input-height, 11px, 100%);
+		}
+	}
+
+	#coctail-type{
+		margin: 15px;
+
+		.beverage-strength{
+			width: @param-beverage-strength-input-width + @param-beverage-strength-arrow-width;
+			margin-right: 10px;
+		
+			.select(@param-beverage-strength-input-width, @param-beverage-strength-arrow-width, @param-input-height, 11px, 100%);
+		}
+
+		.based-on{
+			width: @param-based-on-input-width + @param-based-on-arrow-width;
+			margin-right: 10px;
+		
+			.select(@param-based-on-input-width, @param-based-on-arrow-width, @param-input-height, 11px, 100%);
+		}
+
+		.by-type{
+			width: @param-by-type-input-width + @param-by-type-arrow-width;
+		
+			.select(@param-by-type-input-width, @param-by-type-arrow-width, @param-input-height, 11px, 100%);
+		}
+	}
+
+	#cooking-parameters,
+	#coctail-type{
+		.portion,
+		.time,
+		.complexity,
+		.method,
+		.beverage-strength,
+		.based-on,
+		.by-type{
+			position: relative;
+			float: left;
+
+			.label{
+				display: inline-block;
+				width: 100%;
+				font-size: 13px;
+				color: rgb(123,123,123);
+				font-family: "Arial";
+				text-shadow: 0px 1px 0px white;
+				margin-bottom: 7px;
+				
+				&:before{
+					content: "\f00c";
+					font-family: "FontAwesome";
+					font-size: 11px;
+					padding-right: 4px;
+				}
+			}
+		}
+	}
+
+	#tags{
+		margin: 15px;
+
+		.checkboxes{
+			div{
+				float: left;
+				width: 145px;
+
+				.input{
+					.checkbox(17px, 12px);
+				}
+
+				.label{
+					width: auto;
+					position: relative;
+					display: inline-block;
+					margin-left: 3px;
+					font-size: 12px;
+					line-height: 17px;
+					color: rgb(107,107,107);
+					font-family: "Arial";
+
+				}
+				
+				&:nth-last-child(n+4){
+					margin-bottom: 10px;
+				}
+
+				&:nth-child(3n+1){
+					clear: left;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+@import url("inputs.less");
+
+.poshagovaya-forma{
+	.footer-buttons{
+		margin: 0 18px;
+		
+		table{
+			width: 100%;
+			padding: 0;
+
+			td{
+				width: 33%;
+				padding: 0px;
+			}
+
+			td:nth-child(2){
+				text-align: center;
+			}
+
+			td:nth-child(3){
+				text-align: right;
+			}
+		}
+		padding-bottom: 30px;
+		#prev__btn{
+			.gradient-button(77px, 22px, 1px);
+			display: none;
+		}
+
+		#next__btn{
+			.gradient-button(77px, 22px, 1px);
+		}
+
+		#submit__btn{
+			.gradient-button(75px, 22px, 0px);
+			display: none;
+		}
+	}
+}

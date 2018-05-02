@@ -1,0 +1,120 @@
+
+.grad-button(){
+	@border-bot-color: #2a5893;
+	@border-top-color: #579cd1;
+
+	@btn-bot-color: #4a84cb;
+	@btn-top-color: #81bae8;
+
+	background: linear-gradient(to top, @border-bot-color 0%, @border-top-color 100%);
+	border-radius: 3px;
+	padding: 1px;
+	box-sizing: border-box;
+
+	&:hover{
+		background: linear-gradient(to top, @border-bot-color 0%, @border-bot-color 100%);
+	}
+
+	&:active{
+		background: linear-gradient(to top, @border-top-color 0%, @border-bot-color 100%);
+	}
+
+	button{
+		width: 100%;
+		border: none;
+		outline: none;
+		background: linear-gradient(to top, @btn-bot-color 0%, @btn-top-color 100%);
+		border-radius: 2px;
+		color: white;
+		font-size: 12px;
+		font-family: "Arial";
+
+		&:active{
+			background: linear-gradient(to top, @btn-top-color 0%, @btn-bot-color 100%);	
+		}
+	}
+}
+
+.poshagovaya-forma{
+	#description{
+		margin: 22px 18px 14px 17px; 
+
+		.right-inputs-block{
+			display: block;
+			float: right;
+			width: 327px;
+			position: relative;
+
+			input[type=text]{
+				height: 30px;
+				margin-bottom: 8px;
+			}
+
+			textarea {
+				height: 94px;
+			}
+		}
+
+		.bottom-inputs-block{
+			textarea{
+				height: 99px;
+				margin-top: 9px;
+			}
+		}
+
+		.photo-block {
+			display: inline-block;
+			width: 102px;
+			
+			#cocktail-photo{
+				height: 130px;
+				width: 90px;
+				border-radius: 3px;
+				background-color: #f9fbfb;
+				border: 1px solid #8b959f;
+				box-shadow: inset 0px 0px 0px 5px white;
+				padding: 5px;
+			}
+
+			.btn-border{
+				.grad-button();
+				margin-top: 6px;
+
+				button{
+					height: 20px;
+
+				}
+			}
+		}
+
+		.right-inputs-block input[type=text],
+		.right-inputs-block textarea,
+		.bottom-inputs-block textarea{
+			font-size: 11px;
+			width: 100%;
+			color: rgb(107,107,107);
+			outline: none;
+			border: 1px solid #8b959f;
+			border-radius: 5px;
+			background-color: #ffffff;
+			box-shadow: inset 0px 0px 8px 2px #e9e9e9;
+			resize: none;
+			background-image: url("../images/textarea-ugolok.png");
+			background-repeat: no-repeat;
+			background-position: 100% 100%;
+			padding-right: 8px;
+			padding-left: 8px;
+			box-sizing: border-box;
+
+			&::placeholder{
+				color: rgb(166,172,178);
+			}
+		}
+
+		.right-inputs-block textarea,
+		.bottom-inputs-block textarea{
+			padding: 10px 8px;
+		}
+	}
+
+}

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>poshagovaya-forma</title>
+    <meta charset="utf-8">
+
+
+    <link rel="stylesheet" type="text/css" href="styles/form.css" />
+    
+
+	<link href="libs/fontawesome/css/font-awesome.min.css" rel="stylesheet"/>
+	<script src="js/libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="js/libs/jquery/jquery-ui.min.js"></script>
+	<link href="js/libs/jquery/jquery-ui.css" rel="stylesheet"/>
+	<script src="js/form.js"></script>
+</head>
+
+<body>
+	<form action="#" class="poshagovaya-forma" method="get" name="poshagovaya-forma">
+		<div class="header-buttons-border">
+			<div class="header-buttons-wrapper">
+				<div id="description__btn" class="header-button">
+					<img src="images/paper.png" alt="">
+					<span>Описание</span>
+					<div class="separ"></div>
+				</div>
+				<div id="ingredients__btn" class="header-button">
+					<img src="images/botle.png" alt="">
+					<span>Ингредиенты</span>
+					<div class="separ"></div>
+				</div>
+				<div  id="parameters__btn" class="header-button">
+					<img src="images/plate.png" alt="">
+					<span>Параметры</span>
+					<div class="separ"></div>
+				</div>
+				<div id="bokali__btn" class="header-button">
+					<img src="images/bokal.png" alt="">
+					<span>Бокалы</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="description-tab">
+
+			<fieldset id='description'>
+				<legend><img src="images/paper.png" alt="">Описание</legend>
+				<div class="photo-block">
+					<img id="cocktail-photo" src="images/default-cocktail-photo.png" alt="cocktail photo">
+					<div class="btn-border">
+						<button type="submit" id="load-photo-btn">Загрузить</button>
+					</div>
+				</div>
+				<div class="right-inputs-block">
+					<input id="cocktail-name" name="cocktail-name" type="text" placeholder="Название коктейля">
+					<input id="cocktail-alt-name" name="cocktail-alt-name" type="text" placeholder="Альтернативное название через запятую">
+					<textarea id="cocktail-description" placeholder="Краткое описание"></textarea>
+				</div>
+				<div class="bottom-inputs-block">
+					<textarea id="cooking-instruction" placeholder="Инструкция для приготовления"></textarea>
+				</div>
+			</fieldset>
+		</div>
+
+
+		<div id="ingredients-tab">
+			<fieldset id='ingredients'>
+				<legend>
+					<img src="images/botle.png" alt=""> Ингредиенты
+					<div class="jewerly">
+						<img src="images/strawberry.png" alt="">
+						<div class="hint" hint-text="Украшение?">
+							<div class="triangle"></div>
+						</div>
+	        		</div>
+	        	</legend>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+						
+						<div class="list">
+							<div class="items">
+								<div class="category">Безалкогольные напитки</div>
+								<div class="item">Вода</div>
+								<div class="item">Сок</div>
+								<div class="item">Молоко</div>
+								<div class="category">Алкогольные напитки</div>
+								<div class="item">Водка</div>
+								<div class="item">Ликер</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+						<div class="list">
+							<div class="items">
+								<div class="item current">мл</div>
+								<div class="item">гр</div>
+								<div class="item">кг</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+
+				<div class="ingredient">
+					<div class="ingredient-name">
+						<input type="text" placeholder="Название ингредиента">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="ingredient-amount">
+						<input type="number" value="1"> 
+						<div class="arrows">
+							<div class="up"></div>
+							<div class="down"></div>
+						</div>
+					</div>
+
+					<div class="ingredient-units">
+						<input type="text" value="мл">
+						<div class="arrow"></div>
+					</div>
+
+					<div class="is-decoration">
+						<input type="checkbox" checked="checked">
+						<div class="checkmark"></div>
+					</div>
+				</div>
+	        </fieldset>
+		</div>
+		
+		<div id="parameters-tab">
+			<fieldset id="cooking-parameters">
+				<legend><img src="images/plate.png" alt=""> Параметры приготовления</legend>
+				<div>
+					<div class="portion">
+						<div class="label">Порций</div>
+						<div class="input">
+							<input type="number" value="1"> 
+							<div class="arrows">
+								<div class="up"></div>
+								<div class="down"></div>
+							</div>
+						</div>
+					</div>
+					<div class="time">
+						<div class="label">Время</div>
+						<div class="input">
+							<input type="text" placeholder="">
+							<div class="arrow"></div>
+						</div>
+					</div>
+					<div class="complexity">
+						<div class="label">Сложность</div>
+						<div class="input">
+							<input type="text" placeholder="Выберите из списка">
+							<div class="arrow"></div>
+						</div>
+					</div>
+					<div class="method">
+						<div class="label">Метод</div>
+						<div class="input">
+							<input type="text" placeholder="Выберите из списка">
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+
+			<fieldset id='coctail-type'>
+				<legend><img src="images/coctail.png" alt=""> Тип коктейля</legend>
+				<div>
+					<div class="beverage-strength">
+						<div class="label">По крепкости</div>
+						<div class="input">
+							<input type="text" placeholder="Выберите из списка">
+							<div class="arrow"></div>
+						</div>
+					</div>
+					<div class="based-on">
+						<div class="label">На основе</div>
+						<div class="input">
+							<input type="text" placeholder="Выберите из списка">
+							<div class="arrow"></div>
+						</div>
+					</div>
+					<div class="by-type">
+						<div class="label">По типу</div>
+						<div class="input">
+							<input type="text" placeholder="Выберите из списка">
+							<div class="arrow"></div>
+						</div>
+					</div>
+				</div>
+
+			</fieldset>
+			<fieldset id='tags'>
+				<legend><img src="images/tags.png" alt=""> Теги</legend>
+				<div class="checkboxes">
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Бодрящие</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Соленые</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Необыч. по употреб.</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Горькие</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Травяные</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Для компании</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Кислые</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Тропические</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Для друзей</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Сладкие</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Фруктовые</div>
+					</div>
+					<div class="invigorating">
+						<div class="input">
+							<input type="checkbox">
+							<div class="checkmark"></div>
+						</div>
+						<div class="label">Сладкие</div>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+		
+		<div id="bokali-tab">
+			<fieldset id='bokali'>
+				<legend><img src="images/bokal.png" alt=""> Бокалы</legend>
+				<div class="coctail-glasses">
+					<div class="glass">
+						<img src="images/coctail-glasses/glass1.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass2.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass3.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+						<div class="hint" hint-text="Бокал для соистых коктейлей">
+							<div class="triangle"></div>
+						</div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass4.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass5.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass6.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass7.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass8.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass9.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass10.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass11.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass12.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass13.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass14.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass15.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass16.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass17.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+						<img src="images/coctail-glasses/glass18.png" alt="">
+						<div class="choose-btn"><span>Выбрать</span></div>
+					</div>
+					<div class="glass">
+					</div>
+					<div class="glass">
+					</div>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="footer-buttons">
+			<table>
+				<tr>
+					<td>
+						<div id="prev__btn">
+							<div class="button-wrapper left-arrow">
+								<div class="button-border">
+									<div class="button-main-block"></div>
+								</div>
+								<div class="button-arrow"></div>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div id="submit__btn">
+							<div class="button-wrapper">
+								<div class="button-border">
+									<div class="button-main-block">Отправить</div>
+								</div>
+							</div>
+						</div>
+					</td>
+					<td>
+						<div id="next__btn">
+							<div class="button-wrapper right-arrow">
+								<div class="button-border">
+									<div class="button-main-block"></div>
+								</div>
+								<div class="button-arrow"></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+    </form>
+</body>
+
+</html>
